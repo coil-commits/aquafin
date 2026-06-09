@@ -35,7 +35,7 @@
         <div class="col-span-full text-center py-12 text-gray-500">Geen producten gevonden.</div>
         @endforelse
     </div>
-
+    //--HELLO?--//
     <div class="mt-8 p-6 bg-white rounded-xl shadow text-center">
         <p class="text-gray-600 mb-2">Niet gevonden wat je zoekt?</p>
         <a href="{{ route('suggestion.create') }}?title={{ request('search') }}" class="inline-block bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition font-medium">
